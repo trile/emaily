@@ -10,8 +10,7 @@
     "test:watch": "nodemon --exec 'npm test'"
   },
   "engines": {
-    "node": "8.3.0",
-    "npm": "5.0.3"
+    "node": "8.3.0"
   },
   "author": "Tri Le",
   "license": "ISC",
