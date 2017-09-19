@@ -5,11 +5,12 @@
   "main": "server.js",
   "scripts": {
     "start": "node server/server.js",
+    "start:dev": "nodemon server/server.js",
     "test": "export NODE_ENV=test && mocha server/**/*.test.js",
-    "test-watch": "nodemon --exec 'npm test'"
+    "test:watch": "nodemon --exec 'npm test'"
   },
   "engine": {
-    "node": "8.2.1"
+    "node": "8.3.0"
   },
   "author": "Tri Le",
   "license": "ISC",
